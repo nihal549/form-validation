@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    color: white;
+ display: flex;
+ justify-content: flex-start;
+ margin: 100px;
+ background-repeat: no-repeat;
+background-size: cover;
+font-family: cursive;
+ 
+}
+img{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    position: relative;
+    left: 300px;
+    bottom: 50px;
+    cursor: pointer;
+   
+
+}
+
+form{
+    display: flex;
+    flex-direction:column ;
+    background-color: transparent;
+    border-radius: 10px;
+   padding: 10px;
+   width: 500px;
+   height: 500px;
+   transition-duration: 1s;
+   transition-property: border;
+}
+    
+
+
+
+
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    border: 0px;
+border-radius: 10px;
+background-color:blue;
+color:black;
+margin: 20px auto;
+padding: 10px;
+width: 200px;
+padding: 5px;
+cursor: pointer;
+}
+button:hover{
+    background-color: turquoise;
+    border: none;
+    color:green;
+    animation-name: vibrate-1;
+    animation-duration: 5s;
+}
+label{
+    padding: 10px;
+   
+
+}
+h2{
+    text-transform: capitalize;
+    text-align: center;
+   
+}
+input{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid white;
+    
+    width: 400px;
+    padding: 5px;
+    margin: 0px auto;
+    position: relative;
+    right: 40px;
+    background-color: transparent;
+    color: white;
+    outline: 0;
+
+ 
+}
+input:focus{
+border-left: transparent;
+    
+}
+small{
+    visibility: hidden;
+    color:red;
+}
+
+ @-webkit-keyframes vibrate-1 {
+    0% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+    20% {
+      -webkit-transform: translate(-2px, 2px);
+              transform: translate(-2px, 2px);
+    }
+    40% {
+      -webkit-transform: translate(-2px, -2px);
+              transform: translate(-2px, -2px);
+    }
+    60% {
+      -webkit-transform: translate(2px, 2px);
+              transform: translate(2px, 2px);
+    }
+    80% {
+      -webkit-transform: translate(2px, -2px);
+              transform: translate(2px, -2px);
+    }
+    100% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+  }
+  @keyframes vibrate-1 {
+    0% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+    20% {
+      -webkit-transform: translate(-2px, 2px);
+              transform: translate(-2px, 2px);
+    }
+    40% {
+      -webkit-transform: translate(-2px, -2px);
+              transform: translate(-2px, -2px);
+    }
+    60% {
+      -webkit-transform: translate(2px, 2px);
+              transform: translate(2px, 2px);
+    }
+    80% {
+      -webkit-transform: translate(2px, -2px);
+              transform: translate(2px, -2px);
+    }
+    100% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+  }
+  
+  p{
+      text-align: center;
+      text-transform: capitalize;
+
+  }
